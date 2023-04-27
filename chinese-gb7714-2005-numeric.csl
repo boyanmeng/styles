@@ -23,7 +23,7 @@
   <macro name="refCreator">
     <names variable="author">
       <name initialize-with=" " name-as-sort-order="all" sort-separator=" ">
-        <name-part name="family" text-case="captialize-first"/>
+        <name-part name="family" text-case="capitalize-first"/>
       </name>
     </names>
   </macro>
@@ -125,12 +125,12 @@
   <macro name="refOtherCreator">
     <names variable="editor">
       <name delimiter-precedes-last="always" initialize-with=" " name-as-sort-order="all" sort-separator=" ">
-        <name-part name="family" text-case="uppercase"/>
+        <name-part name="family" text-case="capitalize-first"/>
       </name>
     </names>
     <names variable="translator">
       <name delimiter-precedes-last="always" initialize-with=" " name-as-sort-order="all" sort-separator=" " suffix=", 译">
-        <name-part name="family" text-case="uppercase"/>
+        <name-part name="family" text-case="capitalize-first"/>
       </name>
     </names>
   </macro>
